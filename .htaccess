@@ -1,0 +1,3 @@
+RewriteEngine On
+
+RewriteRule ^posts/([0-9a-zA-Z+]) post.php?id=$1 [NC,L]
